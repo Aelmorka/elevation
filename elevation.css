@@ -1,0 +1,123 @@
+:root {
+    --pink: rgb(255, 150, 170);
+    --darkblue: rgb(16, 36, 65);
+    --blue: rgb(36, 125, 255);
+    --grey: rgb(169, 184, 211);
+    --black: rgb(15, 33, 58);
+}
+
+* {
+    font-family: "Montserrat", Sans-serif;
+    color: var(--black);
+}
+h1 {
+    font-size: 64px;
+}
+
+.pink {
+    background-color: var(--pink);
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2em;
+    letter-spacing: 0.5px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 30px 20px 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 300px 1fr 50px;
+}
+
+.header__logo {
+    background: url(img/logo.png) no-repeat center;
+    background-size: contain;
+    height: 20px;
+    display: inline-block;
+    margin: auto 0;
+}
+
+.header__menu {
+    color: var(--pink);
+}
+
+.header__menu > ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+
+.header__menu > ul > li {
+    color: var(--pink);
+}
+
+.header__language {
+    display: grid;
+    align-items: center;
+}
+
+.two-cards {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.two-cards__talk {
+    padding: 0 20px;
+}
+
+.two-cards__talk > p {
+    font-size: 25px;
+}
+
+.two-cards__people {
+    padding: 80px 20px 0;
+    display: grid;
+    align-items: center;
+}
+.two-cards__people > p {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.two-cards__people_img {
+    background: url(img/menu-symbol.png) no-repeat;
+    background-size: contain;
+    height: 50px;
+}
+
+.partners {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.customers {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.customer {
+    display: grid;
+    align-items: center;
+}
