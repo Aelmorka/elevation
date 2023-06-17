@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="fonts.css" />
-    <link rel="stylesheet" href="elevation.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/elevation.css" />
     <title>Document</title>
     <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1">
         <symbol id="data" viewBox="0 0 400 400">
-            <path stroke="currentColor" d="M112.86,276.65h28.66a5.17,5.17,0,0,0,5.16-5.17V199.83a5.16,5.16,0,0,0-5.16-5.16H112.86a5.17,5.17,0,0,0-5.17,5.16v71.65A5.18,5.18,0,0,0,112.86,276.65ZM118,205h18.33v61.32H118Z"></path>
-            <path stroke="currentColor" d="M179.68,276.65h28.66a5.17,5.17,0,0,0,5.16-5.17V121a5.17,5.17,0,0,0-5.16-5.16H179.68a5.17,5.17,0,0,0-5.17,5.16V271.48A5.18,5.18,0,0,0,179.68,276.65Zm5.16-150.47h18.33V266.32H184.84Z"></path>
-            <path stroke="currentColor" d="M246.5,276.65h28.66a5.18,5.18,0,0,0,5.17-5.17V163.83a5.17,5.17,0,0,0-5.17-5.16H246.5a5.17,5.17,0,0,0-5.17,5.16V271.48A5.18,5.18,0,0,0,246.5,276.65ZM251.67,169H270v97.32H251.67Z"></path>
-            <path stroke="currentColor" d="M315.8,293H89.36V101.86a5.17,5.17,0,1,0-10.33,0V298.14a5.18,5.18,0,0,0,5.17,5.17H315.8a5.17,5.17,0,1,0,0-10.33Z"></path>
+            <path stroke="currentColor"
+                d="M112.86,276.65h28.66a5.17,5.17,0,0,0,5.16-5.17V199.83a5.16,5.16,0,0,0-5.16-5.16H112.86a5.17,5.17,0,0,0-5.17,5.16v71.65A5.18,5.18,0,0,0,112.86,276.65ZM118,205h18.33v61.32H118Z">
+            </path>
+            <path stroke="currentColor"
+                d="M179.68,276.65h28.66a5.17,5.17,0,0,0,5.16-5.17V121a5.17,5.17,0,0,0-5.16-5.16H179.68a5.17,5.17,0,0,0-5.17,5.16V271.48A5.18,5.18,0,0,0,179.68,276.65Zm5.16-150.47h18.33V266.32H184.84Z">
+            </path>
+            <path stroke="currentColor"
+                d="M246.5,276.65h28.66a5.18,5.18,0,0,0,5.17-5.17V163.83a5.17,5.17,0,0,0-5.17-5.16H246.5a5.17,5.17,0,0,0-5.17,5.16V271.48A5.18,5.18,0,0,0,246.5,276.65ZM251.67,169H270v97.32H251.67Z">
+            </path>
+            <path stroke="currentColor"
+                d="M315.8,293H89.36V101.86a5.17,5.17,0,1,0-10.33,0V298.14a5.18,5.18,0,0,0,5.17,5.17H315.8a5.17,5.17,0,1,0,0-10.33Z">
+            </path>
         </symbol>
         <symbol id="hr" viewBox="0 0 400 400">
-            <path stroke="currentColor" d="M265.05,133.54a29.82,29.82,0,1,0-29.82-29.82A29.85,29.85,0,0,0,265.05,133.54Zm0-48.64a18.82,18.82,0,1,1-18.82,18.82A18.84,18.84,0,0,1,265.05,84.9Z"></path>
-            <path stroke="currentColor" d="M246.66,177.44a24.71,24.71,0,0,0-24.47-24.88H179.26a24.7,24.7,0,0,0-24.46,24.88v59.15a24.77,24.77,0,0,0,16.11,23.08v46.21c0,11.15,7.39,20.22,16.48,20.22h26.74c9.07,0,16.45-9.07,16.45-20.22V259.66a24.74,24.74,0,0,0,16.08-23.07Zm-11,59.15A13.61,13.61,0,0,1,224.24,250l-4.66.72v55.16c0,5.27-2.88,9.22-5.45,9.22H187.39c-2.59,0-5.48-4-5.48-9.22V250.71l-4.67-.71a13.62,13.62,0,0,1-11.44-13.41V177.44a13.69,13.69,0,0,1,13.46-13.88h42.93a13.7,13.7,0,0,1,13.47,13.88Z"></path>
-            <path stroke="currentColor" d="M200.76,147.9a29.83,29.83,0,1,0-29.82-29.83A29.86,29.86,0,0,0,200.76,147.9Zm0-48.65a18.83,18.83,0,1,1-18.82,18.82A18.84,18.84,0,0,1,200.76,99.25Z"></path>
-            <path stroke="currentColor" d="M286.51,138.27H243.58a5.5,5.5,0,0,0,0,11h42.93a14,14,0,0,1,13.7,13.82v59.15a14,14,0,0,1-11.82,13.41l-4.67.72v55.16c0,5.31-2.78,9.28-5.27,9.28H251.71a5.5,5.5,0,1,0,0,11h26.74c9.12,0,16.27-8.91,16.27-20.28V245.34a24.82,24.82,0,0,0,16.49-23.1V163.07A24.83,24.83,0,0,0,286.51,138.27Z"></path>
-            <path stroke="currentColor" d="M135,133.54a29.82,29.82,0,1,0-29.82-29.82A29.85,29.85,0,0,0,135,133.54Zm0-48.64a18.82,18.82,0,1,1-18.82,18.82A18.84,18.84,0,0,1,135,84.9Z"></path>
-            <path stroke="currentColor" d="M148.29,300.81H121.55c-2.49,0-5.27-4-5.27-9.28V236.37l-4.67-.72a14,14,0,0,1-11.82-13.41V163.1a14,14,0,0,1,13.7-13.83h42.93a5.5,5.5,0,0,0,0-11H113.49a24.84,24.84,0,0,0-24.7,24.82v59.15a24.82,24.82,0,0,0,16.49,23.1v46.19c0,11.37,7.15,20.28,16.27,20.28h26.74a5.5,5.5,0,1,0,0-11Z"></path>
+            <path stroke="currentColor"
+                d="M265.05,133.54a29.82,29.82,0,1,0-29.82-29.82A29.85,29.85,0,0,0,265.05,133.54Zm0-48.64a18.82,18.82,0,1,1-18.82,18.82A18.84,18.84,0,0,1,265.05,84.9Z">
+            </path>
+            <path stroke="currentColor"
+                d="M246.66,177.44a24.71,24.71,0,0,0-24.47-24.88H179.26a24.7,24.7,0,0,0-24.46,24.88v59.15a24.77,24.77,0,0,0,16.11,23.08v46.21c0,11.15,7.39,20.22,16.48,20.22h26.74c9.07,0,16.45-9.07,16.45-20.22V259.66a24.74,24.74,0,0,0,16.08-23.07Zm-11,59.15A13.61,13.61,0,0,1,224.24,250l-4.66.72v55.16c0,5.27-2.88,9.22-5.45,9.22H187.39c-2.59,0-5.48-4-5.48-9.22V250.71l-4.67-.71a13.62,13.62,0,0,1-11.44-13.41V177.44a13.69,13.69,0,0,1,13.46-13.88h42.93a13.7,13.7,0,0,1,13.47,13.88Z">
+            </path>
+            <path stroke="currentColor"
+                d="M200.76,147.9a29.83,29.83,0,1,0-29.82-29.83A29.86,29.86,0,0,0,200.76,147.9Zm0-48.65a18.83,18.83,0,1,1-18.82,18.82A18.84,18.84,0,0,1,200.76,99.25Z">
+            </path>
+            <path stroke="currentColor"
+                d="M286.51,138.27H243.58a5.5,5.5,0,0,0,0,11h42.93a14,14,0,0,1,13.7,13.82v59.15a14,14,0,0,1-11.82,13.41l-4.67.72v55.16c0,5.31-2.78,9.28-5.27,9.28H251.71a5.5,5.5,0,1,0,0,11h26.74c9.12,0,16.27-8.91,16.27-20.28V245.34a24.82,24.82,0,0,0,16.49-23.1V163.07A24.83,24.83,0,0,0,286.51,138.27Z">
+            </path>
+            <path stroke="currentColor"
+                d="M135,133.54a29.82,29.82,0,1,0-29.82-29.82A29.85,29.85,0,0,0,135,133.54Zm0-48.64a18.82,18.82,0,1,1-18.82,18.82A18.84,18.84,0,0,1,135,84.9Z">
+            </path>
+            <path stroke="currentColor"
+                d="M148.29,300.81H121.55c-2.49,0-5.27-4-5.27-9.28V236.37l-4.67-.72a14,14,0,0,1-11.82-13.41V163.1a14,14,0,0,1,13.7-13.83h42.93a5.5,5.5,0,0,0,0-11H113.49a24.84,24.84,0,0,0-24.7,24.82v59.15a24.82,24.82,0,0,0,16.49,23.1v46.19c0,11.37,7.15,20.28,16.27,20.28h26.74a5.5,5.5,0,1,0,0-11Z">
+            </path>
         </symbol>
         <symbol id="rnd" viewBox="0 0 400 400">
-            <path stroke="currentColor" d="M279.84,95H120.16A25.18,25.18,0,0,0,95,120.16V279.84A25.18,25.18,0,0,0,120.16,305H279.84A25.18,25.18,0,0,0,305,279.84V120.16A25.18,25.18,0,0,0,279.84,95Zm14.76,46.87v138a14.78,14.78,0,0,1-14.76,14.76H120.16a14.78,14.78,0,0,1-14.76-14.76v-138ZM120.16,105.4H279.84a14.78,14.78,0,0,1,14.76,14.76v11.33H105.4V120.16A14.78,14.78,0,0,1,120.16,105.4Z"></path>
-            <path stroke="currentColor" d="M157.05,252.1a5.5,5.5,0,0,0,7.78-7.78L138.51,218l26.32-26.32a5.5,5.5,0,0,0-7.78-7.78l-30.21,30.21a5.5,5.5,0,0,0,0,7.78Z"></path>
-            <path stroke="currentColor" d="M235.17,252.1a5.5,5.5,0,0,0,7.78,0l30.21-30.21a5.5,5.5,0,0,0,0-7.78L243,183.9a5.5,5.5,0,0,0-7.78,7.78L261.49,218l-26.32,26.32A5.5,5.5,0,0,0,235.17,252.1Z"></path>
-            <path stroke="currentColor" d="M187,273.79a5.4,5.4,0,0,0,1.25.15,5.5,5.5,0,0,0,5.35-4.26l23.51-100.87a5.5,5.5,0,1,0-10.71-2.49L182.89,267.19A5.49,5.49,0,0,0,187,273.79Z"></path>
+            <path stroke="currentColor"
+                d="M279.84,95H120.16A25.18,25.18,0,0,0,95,120.16V279.84A25.18,25.18,0,0,0,120.16,305H279.84A25.18,25.18,0,0,0,305,279.84V120.16A25.18,25.18,0,0,0,279.84,95Zm14.76,46.87v138a14.78,14.78,0,0,1-14.76,14.76H120.16a14.78,14.78,0,0,1-14.76-14.76v-138ZM120.16,105.4H279.84a14.78,14.78,0,0,1,14.76,14.76v11.33H105.4V120.16A14.78,14.78,0,0,1,120.16,105.4Z">
+            </path>
+            <path stroke="currentColor"
+                d="M157.05,252.1a5.5,5.5,0,0,0,7.78-7.78L138.51,218l26.32-26.32a5.5,5.5,0,0,0-7.78-7.78l-30.21,30.21a5.5,5.5,0,0,0,0,7.78Z">
+            </path>
+            <path stroke="currentColor"
+                d="M235.17,252.1a5.5,5.5,0,0,0,7.78,0l30.21-30.21a5.5,5.5,0,0,0,0-7.78L243,183.9a5.5,5.5,0,0,0-7.78,7.78L261.49,218l-26.32,26.32A5.5,5.5,0,0,0,235.17,252.1Z">
+            </path>
+            <path stroke="currentColor"
+                d="M187,273.79a5.4,5.4,0,0,0,1.25.15,5.5,5.5,0,0,0,5.35-4.26l23.51-100.87a5.5,5.5,0,1,0-10.71-2.49L182.89,267.19A5.49,5.49,0,0,0,187,273.79Z">
+            </path>
         </symbol>
 
-    <!-- <use width="100" height="100" transform="translate(0 0)" href="#data"/>
+        <!-- <use width="100" height="100" transform="translate(0 0)" href="#data"/>
     <use width="100" height="100" transform="translate(120 0)" href="#hr"/>
     <use width="100" height="100" transform="translate(240 0)" href="#rnd"/> -->
-</svg>
+    </svg>
 </head>
+
 <body>
     <section class="header">
         <a class="header__logo" href="https://elevation.ac/">
@@ -52,59 +83,60 @@
             <img src="img/brit-flag.png" alt="">
         </div>
     </section>
-    <section class="two-cards">
+    <section class="two__cards">
         <div class="two-cards__talk">
-            <h1>Your Academy<br/>As a Service</h1>
+            <h1>Your Academy<br />As a Service</h1>
             <p>Solve your talent shortage with customized end-to-end academy</p>
             <a class="pink btn" href="https://elevation.ac/contact-form/">Let's talk</a>
         </div>
         <div class="two-cards__people">
-            <p>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dignissimos minima ea, 
-                laboriosam quos praesentium aliquid, quas quidem nulla assumenda corporis eligendi 
-                natus quam modi iste nisi. Dolorem, nesciunt. Ipsam?"
-            </p>
-            <div class="two-cards__people_person">
-                <div class="two-cards__people_person-photo"></div>
-                <div class="two-cards__people_person-about">
-                    <b>Someone from internet</b>
-                    <p>Director of something</p>
+            <div class="people">
+                <div class="people__quote">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dignissimos minima ea,
+                    laboriosam quos praesentium aliquid, quas quidem nulla assumenda corporis eligendi
+                    natus quam modi iste nisi. Dolorem, nesciunt. Ipsam?"
+                </div>
+                <div class="people__person">
+                    <div class="people__person-photo">
+                        <img class="people__person-photo-img" src="img/kermit.jpg" alt="">
+                    </div>
+                    <div class="people__person-about">
+                        <b>Someone from internet</b>
+                        <p>Director of something</p>
+                    </div>
                 </div>
             </div>
             <div class="two-cards__people_img"></div>
         </div>
     </section>
-    <section>
-        <div class="partners">
-            <h4>Partners & Customers</h4>
-            <div class="customers">
-                <div class="customer">
-                    <img src="img/google.png" width="150px" alt="">
-                </div>
-                <div class="customer">
-                    <img src="img/wix.png" width="90px" alt="">
-                </div>
-                <div class="customer">
-                    <img src="img/monday.png" width="200px" alt="">
-                </div>
-                <div class="customer">
-                    <img src="img/facebook.png" width="150px" alt="">
-                </div>
-                <div class="customer">
-                    <img src="img/aws.png" width="90px" alt="">
-                </div>
-                <div class="customer">
-                    <img src="img/hapoalim.png" width="200px" alt="">
-                </div>
+    <section class="partners">
+        <h4>Partners & Customers</h4>
+        <div class="customers">
+            <div class="customer">
+                <img src="img/google.png" width="150px" alt="">
+            </div>
+            <div class="customer">
+                <img src="img/wix.png" width="90px" alt="">
+            </div>
+            <div class="customer">
+                <img src="img/monday.png" width="200px" alt="">
+            </div>
+            <div class="customer">
+                <img src="img/facebook.png" width="150px" alt="">
+            </div>
+            <div class="customer">
+                <img src="img/aws.png" width="90px" alt="">
+            </div>
+            <div class="customer">
+                <img src="img/hapoalim.png" width="200px" alt="">
             </div>
         </div>
     </section>
     <section class="video">
         <div class="video__container">
-            <iframe class="video__iframe"
-            src="https://www.youtube.com/embed/aEIR5ou0GJc">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/aEIR5ou0GJc">
             </iframe>
-        </div>    
+        </div>
     </section>
     <section class="talant">
         <div class="talant__caption">
@@ -116,7 +148,7 @@
                 with Customized end-to-end academy
             </h3>
         </div>
-        <div class="talant__cards">
+        <div class="three__cards">
             <div class="talant__cards-card">
                 <svg xmlns="http://www.w3.org/2000/svg">
                     <use xlink:href="#hr" />
@@ -124,145 +156,239 @@
                 <h4>HR</h4>
                 <h6 class="grey-text">Recruiter • Talent Acquisition Manager • Sourcer</h6>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in aliquam 
-                    cupiditate! Repellendus amet ullam, deleniti pariatur sequi eos quisquam veritatis 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in aliquam
+                    cupiditate! Repellendus amet ullam, deleniti pariatur sequi eos quisquam veritatis
                     doloribus saepe atque, deserunt iure eum eligendi, nam natus
                 </p>
             </div>
             <div class="talant__cards-card">
-                <svg xmlns="http://www.w3.org/2000/svg" >
+                <svg xmlns="http://www.w3.org/2000/svg">
                     <use href="#data" />
                 </svg>
                 <h4>Data</h4>
                 <h6 class="grey-text">Data Analyst • Business Analyst • Marketing Analyst</h6>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in aliquam 
-                    cupiditate! Repellendus amet ullam, deleniti pariatur sequi eos quisquam veritatis 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in aliquam
+                    cupiditate! Repellendus amet ullam, deleniti pariatur sequi eos quisquam veritatis
                     doloribus saepe atque, deserunt iure eum eligendi, nam natus
                 </p>
             </div>
             <div class="talant__cards-card">
-                <svg xmlns="http://www.w3.org/2000/svg" >
+                <svg xmlns="http://www.w3.org/2000/svg">
                     <use href="#rnd" />
                 </svg>
                 <h4>R&D</h4>
                 <h6 class="grey-text">Full Stack • QA Automation • Dev Ops • Back End • Front End </h6>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in aliquam 
-                    cupiditate! Repellendus amet ullam, deleniti pariatur sequi eos quisquam veritatis 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti in aliquam
+                    cupiditate! Repellendus amet ullam, deleniti pariatur sequi eos quisquam veritatis
                     doloribus saepe atque, deserunt iure eum eligendi, nam natus
                 </p>
             </div>
         </div>
         <div class="talant__links">
             <div>
-                <a href="" class="black btn">View Data Catalog</a>
+                <a href="#" class="black btn">View Data Catalog</a>
             </div>
             <div>
-                <a href="" class="pink btn">View R&D Catalog</a>
+                <a href="#" class="pink btn">View R&D Catalog</a>
             </div>
             <div>
-                <a href="" class="blue btn">View Digital Marketing Catalog</a>
+                <a href="#" class="blue btn">View Digital Marketing Catalog</a>
             </div>
             <div>
-                <a href="" class="grey btn">View Talent Catalog</a>  
+                <a href="#" class="grey btn">View Talent Catalog</a>
             </div>
-            
+
         </div>
     </section>
-    <section class="launch">
+    <section class="two__cards">
         <div class="launch__rule">
-            <div>
-                <h4>We understand your challenge</h4>
-                The Elevation success team will assess your skill gaps. 
-                This will ensure your training covers all the relevant 
-                and up to date skills
+            <div class="launch__rule-item">
+                <div class="launch__rule-item-img  icon-fontello10icons_person"></div>
+                <div class="launch__rule-item-text">
+                    <h4>We understand your challenge</h4>
+                    <p>
+                        The Elevation success team will assess your skill gaps.
+                        This will ensure your training covers all the relevant
+                        and up to date skills
+                    </p>
+                </div>
             </div>
-            <div>
-                <h4>We Define success KPIs</h4>
-                Our  team will characterize  your relevant KPIs and ensure our training meets every one of them.
+            <div class="launch__rule-item">
+                <div class="launch__rule-item-img  icon-fontello10icons_list"></div>
+                <div class="launch__rule-item-text">
+                    <h4>We Define success KPIs</h4>
+                    <p>
+                        Our team will characterize your relevant KPIs and ensure our training meets every one of them.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h4>We choose the best training methodology</h4>
-                Workshop, Bootcamp, part-time, your office, or online - the possibilities are endless. 
-                We will make sure that the methodology is set  to meet the KPIs and your preference.
+            <div class="launch__rule-item ">
+                <div class="launch__rule-item-img  icon-fontello10icons_board"></div>
+                <div class="launch__rule-item-text">
+                    <h4>We choose the best training methodology</h4>
+                    <p>
+                        Workshop, Bootcamp, part-time, your office, or online - the possibilities are endless.
+                        We will make sure that the methodology is set to meet the KPIs and your preference.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h4>We pick the trainees</h4>
-                If you are here to train your teams we’ll help you create the optimal groups.
-                For ‘train to hire’ projects we’ll help you market and recruit your candidates
+            <div class="launch__rule-item">
+                <div class="launch__rule-item-img  icon-fontello10icons_talks"></div>
+                <div class="launch__rule-item-text">
+                    <h4>We pick the trainees</h4>
+                    <p>
+                        If you are here to train your teams we’ll help you create the optimal groups.
+                        For ‘train to hire’ projects we’ll help you market and recruit your candidates
+                    </p>
+                </div>  
             </div>
-            <div>
-                <h4>We train your teams</h4>
-                Practical, hands-on skills training is the core of our expertise. 
-                With Thousands of training hours our trainers and learning methodologies guarantee that we 
-                will meet and exceed every expectation
+            <div class="launch__rule-item ">
+                <div class="launch__rule-item-img_last  icon-fontello10icons_feedback"></div>
+                <div class="launch__rule-item-text">
+                    <h4>We train your teams</h4>
+                    <p>
+                        Practical, hands-on skills training is the core of our expertise.
+                        With Thousands of training hours our trainers and learning methodologies guarantee that we
+                        will meet and exceed every expectation
+                    </p>
+                </div>
             </div>
         </div>
         <div class="launch__text">
             <h2>Launch <br> Your Training <br> Academy</h2>
             <h1 class="pink-text">Fast!</h1>
-            <a class="pink btn" href="https://elevation.ac/contact-form/">Let's talk</a>
+            <a class="pink btn" href="#">Let's talk</a>
         </div>
     </section>
     <section class="contact">
         <h2 class="white-text">HR and L&D Leaders</h2>
         <h6 class="white-text">Uncover your best training solution </h6>
-            <br>
-            <br>
-        <a class="pink btn" href="https://elevation.ac/contact-form/">Contact Us</a>
+        <br>
+        <br>
+        <a class="pink btn" href="#">Contact Us</a>
     </section>
     <section class="events">
         <h2>Resources & Events<span class="pink-text">.</span>
         </h2>
         <h3 class="pink-text">Previous Events</h3>
-        <div class="events__items">
+        <div class="three__cards">
             <div class="events__items-item">
-                <a class="events__items-item_img blocks2023-img" href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">
+                <a class="events__items-item_img blocks2023-img" href="#">
                     <span class="pink small-btn">Webinar Summary</span>
                 </a>
                 <div class="events__items-item-text">
-                    <a href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">  
+                    <a href="#">
                         <h5>
-                            Webinar Summary: The Top 3 L&D Trends For 2023 And Why We Need To Start Implementing Them Today
-                        </h5> 			
+                            Webinar Summary: The Top 3 L&D Trends For 2023 And Why We Need To Start Implementing Them
+                            Today
+                        </h5>
                     </a>
-                    <a class="pink-text" href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">             
-			            Read More »		
+                    <a class="pink-text" href="#">
+                        Read More »
                     </a>
                 </div>
             </div>
             <div class="events__items-item">
-                <a class="events__items-item_img people-img" href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">
+                <a class="events__items-item_img people-img" href="#">
                     <span class="pink small-btn">Webinar Summary</span>
                 </a>
                 <div class="events__items-item-text">
-                    <a href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">  
+                    <a href="#">
                         <h5>
-                            Webinar Summary: How Elevation Established The Ultimate Academy for Recruiting And Hiring Talents			                        
-                        </h5> 			
+                            Webinar Summary: How Elevation Established The Ultimate Academy for Recruiting And Hiring
+                            Talents
+                        </h5>
                     </a>
-                    <a class="pink-text" href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">             
-			            Read More »		
+                    <a class="pink-text" href="#">
+                        Read More »
                     </a>
                 </div>
             </div>
             <div class="events__items-item">
-                <a class="events__items-item_img bulb-img" href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">
+                <a class="events__items-item_img bulb-img" href="#">
                     <span class="pink small-btn">Webinar Summary</span>
                 </a>
                 <div class="events__items-item-text">
-                    <a href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">  
+                    <a href="#">
                         <h5>
-                            Webinar Summary: Guidelines For Developing Your own Critical Thinking Skill			                        
-                        </h5> 			
+                            Webinar Summary: Guidelines For Developing Your own Critical Thinking Skill
+                        </h5>
                     </a>
-                    <a class="pink-text" href="https://elevation.ac/webinar-summary-the-top-3-ld-trends-for-2023-and-why-we-need-to-start-implementing-them-today/">             
-			            Read More »		
+                    <a class="pink-text" href="#">
+                        Read More »
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quotes">
+        <div class="people">
+            <div class="people__quote people__quote-shad">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dignissimos minima ea,
+                laboriosam quos praesentium aliquid, quas quidem nulla assumenda corporis eligendi
+                natus quam modi iste nisi. Dolorem, nesciunt. Ipsam?"
+            </div>
+            <div class="people__person">
+                <div class="people__person-photo">
+                    <img class="people__person-photo-img" src="img/kermit.jpg" alt="">
+                </div>
+                <div class="people__person-about">
+                    <b>Someone from internet</b>
+                    <p>Director of something</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h2>Upcoming & Running Programs</h2>
+        <div class="three__cards">
+            <div class="projects__item">
+                <div class="projects__item_img shopping-img"></div>
+                <div class="projects__item-text">
+                    <h5>
+                        ShoppingIL Academy
+                    </h5>
+                    <p>
+                        Empowering ecommerce entrepreneurs to launch and maximize their performance with
+                        digital marketing.
+                    </p>
+                    <a class="pink-text" href="#">
+                        Learn More »
+                    </a>
+                </div>
+            </div>
+            <div class="projects__item">
+                <div class="projects__item_img way-img"></div>
+                <div class="projects__item-text">
+                    <h5>
+                        Her way
+                    </h5>
+                    <p>
+                        Empowering domestic violence victims to obtain economic independence.
+                    </p>
+                    <a class="pink-text" href="#">
+                        Learn More »
+                    </a>
+                </div>
+            </div>
+            <div class="projects__item">
+                <div class="projects__item_img itworks-img"></div>
+                <div class="projects__item-text">
+                    <h5>
+                        Itworks
+                    </h5>
+                    <p>
+                        Supporting unprivileged communities by making tech training accessible
+                    </p>
+                    <a class="pink-text" href="#">
+                        Learn More »
                     </a>
                 </div>
             </div>
         </div>
     </section>
 </body>
+
 </html>
