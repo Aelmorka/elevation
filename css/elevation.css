@@ -532,6 +532,43 @@ section {
     font-size: 20px;
     letter-spacing: 0.5px;
 }
+.projects__item-link {
+   text-decoration: none;
+   padding-bottom: 5px;
+   font-size: 20px;
+   font-weight: 600;
+   position: relative;
+   overflow: hidden;
+   display: grid;
+   grid-template-columns: 120px 20px;
+   width: 140px;
+}
+.projects__item-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--pink);
+    transition: all .5s ease-in-out;
+}
+.projects__item-link:hover {
+    width: 160px;
+    grid-template-columns: 140px 20px;
+    transition: all .5s ease-in-out;
+}
+.projects__item-link:hover::after {
+    margin-left: -160px;
+}
+
+.projects__item-link_text {
+    color: var(--pink);
+} 
+.projects__item-link_arrow {
+    padding-left: 10px;
+}
 
 @media screen and (max-width: 1400px) {
     .talant__links {
